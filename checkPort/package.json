@@ -1,0 +1,15 @@
+{
+  "name": "checkport",
+  "version": "1.0.0",
+  "description": "检查端口并且发送邮件",
+  "main": "checkPort.js",
+  "scripts": {
+    "test": "test",
+    "start":"node checkport.js"
+  },
+  "dependencies": {
+    "nodemailer": "2.6.4"
+  },
+  "author": "Lackie Xu",
+  "license": "ISC"
+}
