@@ -14,7 +14,7 @@ if(config.errorPath){
   }
 }else{
   console.log("please input errorPath");
-  process.exit(1);
+  process.exit();
 }
 if(config.infoPath){
   if(config.infoPath.endsWith("/")){
@@ -36,7 +36,7 @@ function writeLog(namePath,data,isError){
     }
     if(isError){
       console.log('保存成功');
-      process.exit(1);
+      process.exit();
     }
   });
 }
